@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+.description {
+    text-align: center;
+    font-size: 18px;
+}
+.survey-form{
+    text-align: left;
+width:700px;
+max-width:90%;
+margin:10px auto;
+padding: 20px 12px 25px 20px;
+background-color: crimson;
+
+border-radius: 5px;
+    
+    
+}
+.label {
+    font-size: 22px;
+    
+}
+.question, .comment-p {
+    font-size: 22px;
+}
+.textarea {
+    max-width: 97%;
+    min-width: 98%;
+    min-height: 20px;
+    max-height: 150px;
+    resize: vertical;
+}
+.submit {
+    height: 40px;
+    width: 80px;
+    font-size: 15px;
+    background-color: #000;
+  border-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.info{
+margin-top: 10px;
+}
