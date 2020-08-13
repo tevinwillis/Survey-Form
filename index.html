@@ -1,0 +1,52 @@
+<h1 id="title">Survey Form</h1>
+    <p class="description" id="description">Please enter your information and answer the questions below. When finshed hit "Submit".</p>
+        
+        <form class="survey-form" id="survey-form">
+    
+            <label class="label" id="name-label">Name</label></br>
+    
+                <input id="name" placeholder="Enter full name" required></input></br>
+    
+    <div class="info">
+            <label class="label" id="email-label">Email</label></br>
+            <input type="email" id="email" placeholder="Enter email" required></input></br>
+    </div>
+    <div class="info">
+        
+        <label class="label" id="number-label">Age</label></br>
+    
+            <input type="number" min="10" max="100" id="number" placeholder="age"></input></br>
+    </div>
+    
+        <p class="question">Which one of these TV shows do you like the most?</p>
+        <select id="dropdown">
+    
+            <option disabled selected value>Pick your favorite</option>
+            <option>Family Guy</option>
+            <option>American Dad</option>
+            <option>The Simpsons</option>
+            <option>It's Always Sunny in Philadelphia</option>
+            <option>Other</option>
+        </select>
+        <p class="question">Which one of these physical activitys do you like best?</p>
+        
+            <input class="option" name="favorite-activity" value="Skateboarding" type="radio">Skateboarding</input></br>
+            <input class="option" name="favorite-activity" value="Basketball" type="radio">Basketball</input></br>
+            <input class="option" name="favorite-activity" value="Running-or-Jogging" type="radio">Running or Jogging</input></br>
+            <input class="option" name="favorite-activity" value="Biking" type="radio">Biking</input></br>
+            <input class="option" name="favorite-activity" value="None" type="radio">Other</input>
+        
+        <p class="question">What languages do you speak?</p>
+        
+            <input class="option" type="checkbox" value="English">English</input></br>
+            <input class="option" type="checkbox" value="Spanish">Spanish</input></br>
+            <input class="option" type="checkbox" value="French">French</input></br>
+            <input class="option" type="checkbox" value="Chinese">Chinese</input></br>
+            <input class="option" type="checkbox" value="Japanese">Japanese</input></br>
+            <input class="option" type="checkbox" value="Itanian">Itanian</input></br>
+            <input class="option" type="checkbox" value="German">German</input>
+        
+        <p class="comment-p">Thank you for completing this survey. If you would like to give any comments you can do so below.</p>
+        <textarea class="textarea" placeholder="Optional comments go here"></textarea></br>
+        <button class="submit" type="submit" id="submit">Submit</button>
+        </form>
